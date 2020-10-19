@@ -1,0 +1,13 @@
+  .Movie img {
+    width: 100%;
+    /* min-height: 340px; */
+    transition: all 0.3s;
+    object-fit: cover;
+    border-radius: 20px;
+    }
+
+    .clickable {
+      cursor: pointer;
+    }
+
+   
