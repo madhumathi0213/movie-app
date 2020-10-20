@@ -31,8 +31,6 @@ export const useHomeFetch = () => {
     }
     setLoading(false);
   }
-
-  // Fetch popular movies initially on mount
   useEffect(() => {
     fetchMovies(POPULAR_BASE_URL);
   }, [])
